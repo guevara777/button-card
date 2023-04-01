@@ -78,7 +78,7 @@
                       (t =
                         (t = (t = document.querySelector('home-assistant')) && t.shadowRoot) &&
                         t.querySelector('home-assistant-main')) && t.shadowRoot) &&
-                    t.querySelector('app-drawer-layout partial-panel-resolver')) &&
+                    t.querySelector('app-drawer-layout partial-panel-resolver, mwc-drawer partial-panel-resolver')) &&
                     t.shadowRoot) ||
                   t) && t.querySelector('ha-panel-lovelace')) && t.shadowRoot) && t.querySelector('hui-root'))
         ? (((e = t.lovelace).current_view = t.___curView), e)
@@ -101,7 +101,7 @@
                           (e =
                             (e = (e = document.querySelector('home-assistant')) && e.shadowRoot) &&
                             e.querySelector('home-assistant-main')) && e.shadowRoot) &&
-                        e.querySelector('app-drawer-layout partial-panel-resolver')) &&
+                        e.querySelector('app-drawer-layout partial-panel-resolver, mwc-drawer partial-panel-resolver')) &&
                         e.shadowRoot) ||
                       e) && e.querySelector('ha-panel-lovelace')) && e.shadowRoot) && e.querySelector('hui-root')) &&
               e.shadowRoot) && e.querySelector('ha-app-layout #view')) && e.firstElementChild);
