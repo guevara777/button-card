@@ -61,7 +61,7 @@ class VerticalStackInCard extends HTMLElement {
               document
                   .querySelector("home-assistant")
                   .shadowRoot.querySelector("home-assistant-main")
-                  .shadowRoot.querySelector("app-drawer-layout partial-panel-resolver")
+                  .shadowRoot.querySelector("app-drawer-layout partial-panel-resolver, mwc-drawer partial-panel-resolver")
                   .shadowRoot.querySelector("ha-panel-lovelace")
                   .shadowRoot.querySelector("hui-root")
                   .shadowRoot.querySelector("ha-app-layout #view")
